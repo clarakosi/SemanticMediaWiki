@@ -160,11 +160,11 @@ return [
 	##
 	'smwgLocalConnectionConf' => [
 		'mw.db' => [
-			'read'  => DB_SLAVE,
+			'read'  => DB_REPLICA,
 			'write' => DB_MASTER
 		],
 		'mw.db.queryengine' => [
-			'read'  => DB_SLAVE,
+			'read'  => DB_REPLICA,
 			'write' => DB_MASTER
 		]
 	],
